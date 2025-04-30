@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/webpage
+    destination: /var/www/html
 hooks:
   AfterInstall:
     - location: scripts/postScript.sh
